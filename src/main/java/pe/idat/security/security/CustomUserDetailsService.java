@@ -13,7 +13,7 @@ import pe.idat.security.repository.UserRepository;
 import java.util.Collections;
 
 @Service
-public class CustomUserDatilsService implements UserDetailsService {
+public class CustomUserDetailsService implements UserDetailsService {
 
     @Autowired
     private UserRepository userRepository;
